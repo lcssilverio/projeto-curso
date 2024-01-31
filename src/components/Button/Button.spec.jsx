@@ -35,6 +35,6 @@ describe('Tests to Button component', () => {
     const handleClick = jest.fn()
     const { container } = render(<Button text="Load more" onClick={handleClick}/>)
 
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 })

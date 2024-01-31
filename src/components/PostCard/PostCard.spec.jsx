@@ -13,7 +13,7 @@ describe('Tests to PostCard component', () => {
 
   test('should match snapshot', () => {
     const {container} = render(<PostCard {...mockPostCard} />)
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 
 })
