@@ -30,4 +30,11 @@ describe('Tests to Button component', () => {
     const button = screen.getByRole('button', {name: /load more/i })
     expect(button).not.toBeDisabled()
   })
+
+  test('should match  snapshot', () => {
+    const handleClick = jest.fn()
+    const { container } = render(<Button text="Load more" onClick={handleClick}/>)
+
+    expect(container.firstChild).toMatchSnapshot()
+  })
 })
