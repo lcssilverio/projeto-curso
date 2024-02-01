@@ -1,24 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tests to PostCard component should match snapshot 1`] = `
-<div
-  class="post"
->
-  <img
-    alt="Title"
-    src="img/img.png"
-  />
+<div>
   <div
-    class="post-content"
+    class="post"
   >
-    <h2>
-      Title
-       
-      1
-    </h2>
-    <p>
-      Body
-    </p>
+    <img
+      alt="Title"
+      src="img/img.png"
+    />
+    <div
+      class="post-content"
+    >
+      <h2>
+        Title
+         
+        1
+      </h2>
+      <p>
+        Body
+      </p>
+    </div>
   </div>
 </div>
 `;

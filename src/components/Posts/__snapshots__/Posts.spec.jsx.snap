@@ -1,83 +1,89 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tests to Posts component should match snapshot 1`] = `
-<div
-  class="posts"
->
+<div>
   <div
-    class="post"
+    class="posts"
   >
-    <img
-      alt="Title 1"
-    />
     <div
-      class="post-content"
+      class="post"
     >
-      <h2>
-        Title 1
-         
-        1
-      </h2>
-      <p>
-        Body 1
-      </p>
+      <img
+        alt="Title 1"
+        src="img/img1.png"
+      />
+      <div
+        class="post-content"
+      >
+        <h2>
+          Title 1
+           
+          1
+        </h2>
+        <p>
+          Body 1
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    class="post"
-  >
-    <img
-      alt="Title 2"
-    />
     <div
-      class="post-content"
+      class="post"
     >
-      <h2>
-        Title 2
-         
-        2
-      </h2>
-      <p>
-        Body 2
-      </p>
+      <img
+        alt="Title 2"
+        src="img/img2.png"
+      />
+      <div
+        class="post-content"
+      >
+        <h2>
+          Title 2
+           
+          2
+        </h2>
+        <p>
+          Body 2
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    class="post"
-  >
-    <img
-      alt="Title 3"
-    />
     <div
-      class="post-content"
+      class="post"
     >
-      <h2>
-        Title 3
-         
-        3
-      </h2>
-      <p>
-        Body 3
-      </p>
+      <img
+        alt="Title 3"
+        src="img/img3.png"
+      />
+      <div
+        class="post-content"
+      >
+        <h2>
+          Title 3
+           
+          3
+        </h2>
+        <p>
+          Body 3
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    class="post"
-  >
-    <img
-      alt="Title 4"
-    />
     <div
-      class="post-content"
+      class="post"
     >
-      <h2>
-        Title 4
-         
-        4
-      </h2>
-      <p>
-        Body 4
-      </p>
+      <img
+        alt="Title 4"
+        src="img/img4.png"
+      />
+      <div
+        class="post-content"
+      >
+        <h2>
+          Title 4
+           
+          4
+        </h2>
+        <p>
+          Body 4
+        </p>
+      </div>
     </div>
   </div>
 </div>
